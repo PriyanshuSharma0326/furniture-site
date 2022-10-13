@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Some Meta Tags -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+        <!-- Icons -->
+        <link rel="icon" href="images/page-icon.png">
+
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+        
+        <!-- Local CSS File -->
+        <link rel="stylesheet" href="css/styles.css">
+        
+        <!-- Page Title -->
+        <title>Your home</title>
+    </head>
+
+    <body>
+        <!-- Navigation Bar on Top -->
+
+        <nav id="navigation-bar" class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#navigation-bar">Your<br>Home</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav m-auto">
+                      <a class="nav-link active" aria-current="page" href="#navigation-bar">Home</a>
+                      <a class="nav-link" href="#about-us">About Us</a>
+                      <a class="nav-link" href="#photo">Photo</a>
+                      <a class="nav-link" href="#price">Price</a>
+                      <a class="nav-link" href="#contact">Contact</a>
+                    </div>
+                </div>
+                <a class="nav-link login" href="#">Log In</a>
+            </div>
+        </nav>
+
+        <!-- Some Pictures And A search Bar -->
+
+        <div id="content-body">
+            <div class="row label-and-search">
+                <h1 class="col-lg-7 col-md-6">Stylish Furniture In Your Home</h1>
+                <form class="d-flex col-lg-5 col-md-6" role="search">
+                    <input class="form-control" type="search" placeholder="Search">
+                </form>
+            </div>
+            <div class="row image-section">
+                <img class="col-lg-6 images img1" src="https://wakefit-co.s3.ap-south-1.amazonaws.com/img/sofa-sets/napper/regular/lifestyle/FOBL.jpg" alt="Sofa">
+                <img class="col-lg-6 images img2" src="https://www.ikea.com/in/en/images/products/koppang-chest-of-5-drawers-white__0778087_pe758831_s5.jpg" alt="Drawer">
+            </div>
+        </div>
+
+        <!-- Search Up Products -->
+
+        <div id="price">
+            <div class="row feat-info">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <p>More</p>
+                    </div>
+                    <div class="row">
+                        <h2>Than</h2>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="row">
+                        <p>200,000</p>
+                    </div>
+                    <div class="row">
+                        <h2>Items</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <hr style="border-width: 2px;">
+
+        <div id="intro" class="row">
+            <form class="d-flex col-lg-4 p-0" role="search">
+                <input class="form-control searchbar2" type="search" placeholder="Search">
+            </form>
+            <div class="col-lg-4">
+                <h4 class="line">Find From The Glass To The Table</h4>
+            </div>
+            <div class="col-lg-2">
+                <h4 class="line a-line">Try Installments</h4>
+            </div>
+            <div class="col-lg-2 p-0">
+                <button class="button" type="submit">More</button>
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+
+        <div id="about-us" class="row">
+            <div class="col-lg-6 p-0">
+                <p>About Us</p><br>
+                <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra, purus tellus egestas massa, a iaculis velit turpis id mauris.</h4>
+                <button class="button" type="submit">More</button>
+            </div>
+            <div class="col-lg-6 p-0">
+                <img class="images" src="https://5.imimg.com/data5/SELLER/Default/2020/9/YG/HI/XO/111902122/2-1000x1000.jpg" alt="Chair">
+            </div>
+        </div>
+
+        <!-- Photos Slider Section -->
+
+        <div id="photo">
+            <div class="row m-0">
+                <hr class="photo-hr col-lg-4">
+                <p class="col-lg-4">Our Items</p>
+                <hr class="photo-hr col-lg-4 ms-auto">
+            </div>
+
+            <div class="row m-auto">
+                <h6>All Our Products Are Available To You At An Excellent Price. You<br>Can Read About Them And See Photos</h6>
+            </div>
+
+            <div id="carouselIndicators" class="carousel slide" data-bs-ride="true">
+
+                <!-- Carousel Indicators -->
+                
+                <div class="carousel-indicators">
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1">All</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="1" aria-label="Slide 2">Sofas</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="2" aria-label="Slide 3">Chairs</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="3" aria-label="Slide 4">Tables</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="4" aria-label="Slide 5">Carpets</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="5" aria-label="Slide 6">Shelves</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="6" aria-label="Slide 7">Tableware</button>
+                    <button type="text" data-bs-target="#carouselIndicators" data-bs-slide-to="7" aria-label="Slide 8">Toys</button>
+                </div>
+
+                <!-- Carousel Items -->
+                
+                <div class="carousel-inner">
+                    <div class="carousel-item slider-cards active">
+                        <img class="slider-img" src="https://tallypress.com/wp-content/uploads/2018/09/57-Cozy-Bedroom-Decorating-Ideas-1.jpg" alt="All">
+                        <h2>Comfy Room</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+        
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://www.furniturechoice.co.uk/p/m/CS10000936/CS10000936.jpg" alt="Grey Sofa">
+                        <h2>Grey Sofa</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://springtek.in/images/product/146/springtek-joy-and-me-pure-sheesham-wooden-chairs-for-kids-1-zoom.jpg" alt="Wooden Chair">
+                        <h2>Wooden Chair</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://www.scandinaviandesign.com/wp-content/uploads/2021/09/verk_david_ericsson-1-1536x917-1.jpg" alt="Sturdy Table">
+                        <h2>Sturdy Table</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://afghanu.com/wp-content/uploads/2020/03/M02-19-1.jpg" alt="Handmade Carpets">
+                        <h2>Handmade Carpets</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://www.homestratosphere.com/wp-content/uploads/2019/03/Living-room-with-built-in-white-shelving-mar19.jpg" alt="Safe Shelves">
+                        <h2>Safe Shelves</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://assets.architecturaldigest.in/photos/60084233cce5700439e1261e/16:9/w_1280,c_limit/dinnerware-tableware-products-online-shopping-1366x768.jpg" alt="Tablewares">
+                        <h2>Tablewares</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+
+                    <div class="carousel-item slider-cards">
+                        <img class="slider-img" src="https://m.media-amazon.com/images/I/91MFTyF+vvL._SL1500_.jpg" alt="Cute Toys">
+                        <h2>Cute Toys</h2>
+                        <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ut molestie magna, nec varius est. Vivamus dapibus, mauris pellentesque hendrerit viverra.</h4>
+                        <button class="button" type="submit">More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Us Section -->
+
+        <div id="contact">
+            <section class="form-container row">
+                <div class="col">
+                    <h5>Any Other<br>Questions? Write, We<br>Will Respond!</h5>
+                    <form action="#">
+                        <input class="text-input" type="text" placeholder="Question"><br>
+                        <input class="text-input" type="text" placeholder="Mail"><br>
+                    </form>
+                    <button class="button" type="submit">More</button>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <img class="images img-contact" src="https://m.media-amazon.com/images/I/61EqDTkgWpL._AC_SL1000_.jpg" alt="A woman on a chair">
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer Navigation Bar -->
+
+        <footer class="footer-section">
+            <nav id="footer-div" class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#navigation-bar">Your<br>Home</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav m-auto">
+                          <a class="nav-link active" aria-current="page" href="#navigation-bar">Home</a>
+                          <a class="nav-link" href="#about-us">About Us</a>
+                          <a class="nav-link" href="#photo">Photo</a>
+                          <a class="nav-link" href="#price">Price</a>
+                          <a class="nav-link" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                    <a class="nav-link login" href="#">Log In</a>
+                </div>
+            </nav>
+        </footer>
+
+        <!-- JavaScript Integration -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+        <script src="site.js"></script>
+    </body>
+</html>
+
+
+<!-- 
+All         https://tallypress.com/wp-content/uploads/2018/09/57-Cozy-Bedroom-Decorating-Ideas-1.jpg
+-->
+
+<!-- 
+Sofas       https://www.thespruce.com/thmb/yYeyL7KSSzmtzr49xwsMPicxEi4=/2005x1504/smart/filters:no_upscale()/how-to-choose-a-sofa-color-4151743-04-b2a07f452fd3476293a75aff7e5ea17c.jpg
+ -->

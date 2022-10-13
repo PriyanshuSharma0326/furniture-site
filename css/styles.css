@@ -1,0 +1,298 @@
+/* HTML Elements */
+
+body, #photo, .slider-cards, .form-container, #footer-div .container-fluid {
+    background-color: white;
+}
+
+h1 {
+    width: 50%;
+    font-size: 5.5rem;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h4 {
+    margin-bottom: 0;
+    width: 90%;
+    font-size: 1.3rem;
+    font-family: 'Noto Sans HK', sans-serif;
+}
+
+h5 {
+    margin-top: 8rem;
+    margin-left: 4rem;
+    font-size: 2.9rem;
+    font-weight: bold;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+h6 {
+    vertical-align: middle;
+    text-align: center;
+    word-spacing: 1.5px;
+    font-weight: 600;
+}
+
+p {
+    font-weight: 800;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* IDs */
+
+#price{
+    margin: 0 7.4rem;
+}
+
+#about-us {
+    background-color: #F6F6F6;
+    padding-left: 7.4rem;
+    margin: 0 0;
+}
+
+#intro {
+    margin: 0 5rem 0 7.4rem;
+    padding-bottom: 13.5rem;
+}
+
+#navigation-bar {
+    margin: 0.6rem 7.4rem;
+}
+
+#footer-div {
+    margin: 6.4rem 7.4rem;
+    padding: 0;
+}
+
+#content-body {
+    padding: 0 7.4rem;
+    background-color: #F6F6F6;
+}
+
+#contact {
+    padding: 2.7rem 8.4rem;
+    background-color: #F6F6F6;
+}
+
+#carouselIndicators {
+    position: relative;
+}
+
+/* Classes */
+
+.carousel-inner {
+    /* margin: auto; */
+    /* width: 42.6rem; */
+}
+
+.slider-cards {
+    padding: 3.3rem 0;
+    /* margin: 30px 0; */
+    width: 42.6rem;
+}
+
+.slider-img {
+    width: 100%;
+    height: auto;
+    border-radius: 22px;
+}
+
+.text-input {
+    margin-left: 4rem;
+    margin-top: 1rem;
+    width: 80%;
+    color: #222222;
+    height: 3rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    border: 0;
+    outline: 0;
+    border-bottom: 1.6px solid #555555;
+}
+
+.form-container {
+    border-radius: 22px;
+    border: #222222;
+    border-width: 3rem;
+}
+
+.label-and-search {
+    margin: 0;
+    padding: 4.9rem 0;
+}
+
+.feat-info {
+    margin: 0;
+    padding: 7.4rem 0 0 0;
+}
+
+.form-control {
+    margin-top: 1.3rem;
+    margin-left: auto;
+    border-radius: 50px;
+    outline: 0;
+    height: 4rem;
+    width: 86%;
+    border: 0;
+    font-family: 'Noto Sans', sans-serif;
+    filter: drop-shadow(0 0 35px rgb(222, 222, 222));
+}
+
+.image-section {
+    margin: 0;
+    padding-bottom: 4rem;
+}
+
+.images {
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-brand, .login {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 1.8rem;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+}
+
+.line {
+    padding: 0;
+    width: 60%;
+    margin: 2rem 2rem 0 2rem;
+}
+
+.a-line {
+    text-align: end;
+    margin-left: auto;
+}
+
+.button {
+    margin-top: 21px;
+    border-radius: 50px;
+    background-color: rgb(196, 233, 222);
+    width: 14rem;
+    height: 3.6rem;
+    border: none;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #222222;
+}
+
+.photo-hr {
+    width: 33%;
+    padding: 0;
+    margin-top: 9.5rem;
+    border-width: 2.4px;
+}
+
+.carousel-indicators {
+    position: unset;
+}
+
+/* Special Calls */
+
+#photo p {
+    vertical-align: middle;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 4.8rem;
+    font-size: 6rem;
+}
+
+.feat-info p {
+    padding: 1rem;
+    height: 160px;
+    margin-bottom: 0;
+    width: 50%;
+    font-size: 8rem;
+}
+
+#about-us p{
+    margin-bottom: 0;
+    margin-top: 8.5rem;
+    font-size: 6rem;
+}
+
+#about-us .button, .slider-cards .button {
+    margin-top: 3rem;
+    height: 3rem;
+}
+
+#about-us h4 {
+    width: 75%;
+    margin-top: 0;
+}
+
+.feat-info h2 {
+    padding-left: 1rem;
+    padding-bottom: 4.5rem;
+    width: 50%;
+    font-size: 2.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-control.searchbar2 {
+    margin-left: 0;
+    margin-top: 21px;
+    height: 4.5rem;
+    width: 444px;
+}
+
+#contact .img-contact {
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+#contact .button {
+    margin-bottom: 8rem;
+    margin-left: 4rem;
+    height: 3rem;
+}
+
+.navbar-nav .nav-link {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    margin: 0 7.5px;
+    color: #222222;
+}
+
+.slider-cards h2 {
+    margin-top: 3rem;
+    font-weight: 800px;
+}
+
+.slider-cards h4 {
+    font-size: 1.2rem;
+    font-weight: 500px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: green;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+.login:hover {
+    color: purple;
+}
+
+.carousel-indicators button {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    color: #222222;
+    opacity: unset !important;
+    width: unset !important;
+    text-indent: unset !important;
+    margin: 0 1rem !important;
+    padding-top: 2rem !important;
+    padding-bottom: 2.5rem !important;
+}
+
+.carousel-indicators button:focus {
+    color: green;
+    box-shadow: none;
+}
